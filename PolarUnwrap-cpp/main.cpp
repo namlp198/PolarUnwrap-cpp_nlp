@@ -1,5 +1,10 @@
 #define _USE_MATH_DEFINES // for C++
 
+#pragma comment(lib, "opencv_core480d.lib")
+#pragma comment(lib, "opencv_imgcodecs480d.lib")
+#pragma comment(lib, "opencv_imgproc480d.lib")
+#pragma comment(lib, "opencv_highgui480d.lib")
+
 #include <iostream>
 #include <math.h>
 #include <chrono>
